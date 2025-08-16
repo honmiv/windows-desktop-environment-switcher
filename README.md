@@ -7,6 +7,8 @@
 - Windows shows one folder as your desktop. This script lets you **switch to a different folder as your desktop**, creating a new environment without affecting your original desktop files.  
 - It automatically downloads **DesktopOK**, which **backs up and restores your desktop icon layout** when you switch environments. This keeps your icons organized.
 
+
+## See the video: 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/hdB9Wz6CvWI/0.jpg)](https://www.youtube.com/watch?v=hdB9Wz6CvWI)
 
 ## How to use
