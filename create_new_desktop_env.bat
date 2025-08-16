@@ -80,9 +80,6 @@ copy /y "%SHORTCUT_ENV%" "%USERPROFILE%\Desktop\"
 :: 10. Place shortcut to_home.lnk in Desktop_<ENV_NAME>
 copy /y "%SHORTCUT_HOME%" "%USERPROFILE%\%ENV_FOLDER%\"
 
-:: Optional: clean up raw bat files (keep only shortcuts + exe)
-:: del /q "to_home.bat"
-:: del /q "to_%ENV_NAME%.bat"
-
 echo Done!
 pause
+
