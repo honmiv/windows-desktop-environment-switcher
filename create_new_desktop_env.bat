@@ -12,12 +12,10 @@ cd "Desktop_Switcher"
 echo Downloading DesktopOK.zip...
 powershell -command "Invoke-WebRequest -Uri 'https://www.softwareok.de/Download/DesktopOK.zip' -OutFile 'DesktopOK.zip'"
 
-:: 4. Unzip zip and remove all .txt
+:: 4. Unzip zip and remove all .txt and downloaded ZIP
 echo Extracting DesktopOK.zip...
 powershell -command "Expand-Archive -Force 'DesktopOK.zip' ."
 del /q *.txt
-
-:: Remove downloaded zip
 del /q DesktopOK.zip
 
 :: 5. Create empty file DesktopOK.ini
@@ -82,4 +80,5 @@ copy /y "%SHORTCUT_HOME%" "%USERPROFILE%\%ENV_FOLDER%\"
 
 echo Done!
 pause
+
 
